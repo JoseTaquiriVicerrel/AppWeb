@@ -1,10 +1,11 @@
 body{
     background-color: #FFF000;
     place-items: center;
-    height: 736px;
     display: flex;
     justify-content: center;
+    height: 636px;
 }
+
 .button {/* Green */
   border: none;
   color: white;
@@ -17,6 +18,7 @@ body{
   transition-duration: 0.4s;
   cursor: pointer;
   font-weight: bold;
+  font-family: Arial;
 }
 
 .button1{

@@ -1,0 +1,79 @@
+/*.container{
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}*/
+.container {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+    width: 120px; /* Definimos el ancho del objeto a centrar */
+    height: 140px; /* Definimos el alto del objeto a centrar */
+    margin-top: -80px; /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -70px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+    }
+body{
+    background-color: #FFF000;
+    
+}
+.item{
+    vertical-align: middle;
+}
+.contenedor{
+    background-color: black;
+    /*height: fit-content;
+    width: fit-content;*/
+    width: auto;
+    border-radius: 10px;
+}
+#pdf{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 40px;
+}
+
+.Mensaje{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.logo{
+    width: 100px;
+    float: right;
+}
+h4{
+    color: white;
+    margin-top: 2px;
+    width:auto;
+    height:35px;
+    text-align: center;
+    
+}
+.centrar{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.arriba{
+    
+    height: 540px;
+}
+
+h6{
+    
+    width: fit-content;
+    color:black;
+    font-size: 15px;
+}
+.fuente{
+    margin-top: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+}
